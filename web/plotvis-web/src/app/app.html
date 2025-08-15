@@ -1,0 +1,18 @@
+<div style="padding:16px; max-width:900px; margin:0 auto;">
+  <h2>Stress–strain viewer</h2>
+
+  <div style="display:flex; gap:8px; align-items:center;">
+    <input
+      placeholder="absolute path to CSV (optional)"
+      [(ngModel)]="csvPath"
+      style="flex:1; padding:8px;"
+    />
+    <button (click)="load()">Load</button>
+  </div>
+
+  <div style="height:420px; margin-top:12px;">
+    <canvas #canvas></canvas>
+  </div>
+
+  <pre style="white-space:pre-wrap; margin-top:8px;">{{ status }}</pre>
+</div>

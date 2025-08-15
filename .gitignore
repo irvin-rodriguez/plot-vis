@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# .NET build
+**/bin/
+**/obj/
+
+# Node/Angular build
+**/node_modules/
+**/dist/
+
+# Logs
+*.log
