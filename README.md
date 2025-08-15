@@ -1,6 +1,6 @@
 # Plot Vis
 
-Simple stress–strain visualization tool built to demonstrate rapid adoption of C#, .NET, and Angular in an engineering workflow.
+Simple stress–strain visualization tool built to demonstrate quick learning of C#, .NET, and Angular.
 
 ![Sample Plot](docs/sample-plot.png)
 
